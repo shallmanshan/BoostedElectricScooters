@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.boosted{
+    height: 50px;
+    width: 200px;
+    padding-left: 20px;
+}
+ul{
+    
+    font-weight: 400;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    padding-right: 175px;
+}
+.infos{
+    padding-right: 20px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    position: sticky;
+    top: 0px;
+}
+.icons{
+    padding-right: 15px;
+}
+.material-symbols-outlined{
+    padding-right: 10px;
+}
+.con1{
+    width: 100%;
+    display: flex;
+}
+.con2{
+    width: 100%;
+    display: flex;
+}
+.pic{
+    opacity: 0.5;
+    width: 50%;
+}    
+.logo1{
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 245px;
+    top: 350px;
+}
+.p1{
+    position: absolute;
+    left: 230px;
+    top: 440px;
+}
+.logo2{
+    width: 750px;
+    height: 190px;
+    position: absolute;
+    right: 5px;
+    top: 310px;
+}
+.p2{
+    text-align: center;
+    position: absolute;
+    font-weight: bold;
+    left: 1070px;
+    top: 460px;
+}
+.logo3{
+    width: 280px;
+    height: 100px;
+    position: absolute;
+    left: 240px;
+    top: 1030px;
+}
+.p3{
+    font-weight: bold;
+    position: absolute;
+    top: 1150px;
+    left: 160px;
+}
+.logo4{
+    width: 280px;
+    height: 100px;
+    position: absolute;
+    right: 250px;
+    top: 1000px;
+}
+.p4{
+    font-weight: bold;
+    position: absolute;
+    top: 1120px;
+    right: 150px;
+}
+.pic:hover{
+    
+}
+.blackbar{
+    width: 100%;
+    height: 83px;
+    background-color: black;
+}
+.blackbar img{
+    padding-left: 160px;
+    padding-top: 10px;
+}
+.head{
+    text-align: center;
+}
+.why1{
+    display: flex;
+    gap: 200px;
+}
+.why1img{
+    width: 435px;
+    height: 435px;
+    margin-left: 150px;
+}
+.why1con{
+    width: 490px;
+    height: 435px;
+    margin-top: 30px;
+}
+.why1but{
+    background-color: red;
+    color: white;
+    padding: 13px;
+    border-radius:20px;
+    cursor: pointer;
+    border: none;
+}
+.why1but:hover{
+    background-color: blue;
+}
+.why2{
+    display: flex;
+    gap: 200px;
+}
+.why2con{
+    width: 580px;
+    height: 443px;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.why2img{
+    width: 580px;
+    height: 643px;
+    margin-right: 150px;
+}
+.why2but{
+    background-color: red;
+    color: white;
+    padding: 13px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+.why2but:hover{
+    background-color: blue;
+}
+.why3{
+    display: flex;
+    gap: 200px;
+}
+.why3img{
+    width: 477px;
+    height: 529px;
+    margin-left: 150px;
+}
+.why3con{
+    width: 580px;
+    height: 480px;
+    margin-top: 100px;
+}
+.why3but{
+    background-color: red;
+    color: white;
+    padding: 13px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+.why3but:hover{
+    background-color: blue;
+}
+.highimg{
+    width: 1519px;
+    height: 666px;
+}
+.highcon{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    text-align: center;
+    width: 500px;
+}
+.highper{
+    position: relative;
+}
+.highbut{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 20px;
+}
+.highbut:hover{
+    background-color: blue;
+}
+.youtube{
+    width: 1160px;
+    height: 653px; 
+    margin-left: 180px;  
+}
+.bestimg{
+    width: 1519px;
+    height: 607px;
+}
+.best{
+    position: relative;
+}
+.bestcon{
+    position: absolute;
+    top: 80px;
+    left: 600px;
+    color: white;
+    text-align: center;
+    width: 400px;
+    font-size: 30px;
+}
+.bestbut{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 20px;
+}
+.bestbut:hover{
+    background-color: blue;
+}
+.newsletter{
+    width: 1518px;
+    height: 499px;
+    background-color: lightgrey;
+}
+.news{
+    width: 450px;
+    height: 318px;
+    padding-top: 40px;
+    margin-left: 550px;
+
+}
+.newsbut{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 402px;
+    height: 46px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.go{
+    height: 304px;
+    width: 1519px;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.one{
+    width: 290px;
+    text-align: center;
+}
+.two{
+    width: 290px;
+    text-align: center;
+}
+.three{
+    width: 290px;
+    text-align: center;
+}
+.four{
+    width: 290px;
+    text-align: center;
+}
+.five{
+    text-align: center;
+}
